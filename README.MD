@@ -5,7 +5,7 @@
 ```
 gradle run
 ```
-## using java -jar
+## using java -jar, ! not working yet
 ```
 java -jar build/libs/learn-java-1.0.0.jar
 ```
