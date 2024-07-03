@@ -1,0 +1,69 @@
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'application'
+}
+
+// https://docs.gradle.org/current/userguide/building_java_projects.html#sec:java_dependency_management_overview
+// Configuring the toolchain protects against problems with the project being built with different Java versions.
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+group = 'com.learn'
+version = '1.0.0'
+final jar_file_name = "learn-java-${version}.jar"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'ch.qos.logback:logback-classic:1.5.6'
+    implementation 'org.slf4j:slf4j-api:2.0.13'
+
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+//https://docs.gradle.org/current/samples/sample_building_java_applications.html
+//from application plugin
+//this we need to run application using "gradle run"
+application {
+    mainClass = 'com.learn.Main'
+}
+
+jar {
+    enabled = true
+    archiveFileName = "${jar_file_name}"
+    manifest {
+        attributes("Implementation-Title": "LearnJava",
+                "Implementation-Version": archiveVersion,
+                "Manifest-Version": 1.0,
+                "Main-Class": "com.learn.Main",
+                "Start-Class": "com.learn.Main",
+                "Build-Jdk-Spec": 21
+        )
+    }
+}
+
+compileJava {
+    compileJava.options.encoding = "UTF-8"
+    compileTestJava.options.encoding = "UTF-8"
+    options.warnings = true
+    options.deprecation = true
+    options.release = 21
+}
+
+javadoc {
+    options.encoding = 'UTF-8'
+}
+
+test {
+    useJUnitPlatform()
+}
