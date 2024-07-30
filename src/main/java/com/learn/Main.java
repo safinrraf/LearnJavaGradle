@@ -6,6 +6,8 @@ package com.learn;
 import com.learn.leetcode.easy.arrays.RemoveDuplicatesFromSortedArray;
 import java.util.HashMap;
 import java.util.Map;
+
+import com.learn.leetcode.easy.arrays.RotateArray;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -31,10 +33,13 @@ public class Main {
    * @param args input parameters
    */
   public static void main(String[] args) {
-    final int[] input = {0, 0, 0, 0, 1, 1, 2, 2, 2};
-    final var result = RemoveDuplicatesFromSortedArray.removeDuplicates(input);
-    log.info("Array {}", input);
-    log.info("Result {}", result);
+    final int[] input = {1, 2, 3, 4, 5, 6, 7};
+
+    log.info("Array before {}", input);
+
+    RotateArray.rotate(input, 3);
+
+    log.info("Array after {}", input);
   }
 
 }
