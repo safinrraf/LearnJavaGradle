@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
  * <a href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/646/">Task</a>
  * */
 @Slf4j
-public class RotateArray {
+public final class RotateArray {
 
     /**
      * Almost cool: result: Time Limit Exceeded.

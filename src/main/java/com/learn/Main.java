@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.learn.leetcode.easy.arrays.RotateArray;
+import com.learn.leetcode.easy.arrays.SingleNumber;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -33,13 +34,13 @@ public class Main {
    * @param args input parameters
    */
   public static void main(String[] args) {
-    final int[] input = {1, 2, 3, 4, 5, 6, 7};
+    final int[] input = {1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7, 9};
 
     log.info("Array before {}", input);
 
-    RotateArray.rotate(input, 3);
+    final var result = SingleNumber.singleNumber(input);
 
-    log.info("Array after {}", input);
+    log.info("result {}", result);
   }
 
 }
