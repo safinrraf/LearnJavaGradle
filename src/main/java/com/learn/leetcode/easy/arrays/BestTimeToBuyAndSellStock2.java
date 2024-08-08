@@ -1,7 +1,5 @@
 package com.learn.leetcode.easy.arrays;
 
-import lombok.extern.slf4j.Slf4j;
-
 /**
  * <a href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/">Task</a>
  */
