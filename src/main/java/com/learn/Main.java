@@ -4,8 +4,10 @@ package com.learn;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
 import com.learn.leetcode.easy.arrays.RemoveDuplicatesFromSortedArray;
-import java.util.HashMap;
-import java.util.Map;
+
+import java.util.*;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 import com.learn.leetcode.easy.arrays.RotateArray;
 import com.learn.leetcode.easy.arrays.SingleNumber;
@@ -34,13 +36,14 @@ public class Main {
    * @param args input parameters
    */
   public static void main(String[] args) {
-    final int[] input = {1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7, 9};
+    final Predicate<String> myIsNull = Objects::isNull;
+    final List<String> testList = new ArrayList<>();
 
-    log.info("Array before {}", input);
+    log.info("This is null {}", myIsNull.test(null));
+    log.info("This is null {}", myIsNull.test("null"));
 
-    final var result = SingleNumber.singleNumber(input);
+    Function<String, String> toLCase = String::toLowerCase;
 
-    log.info("result {}", result);
+    log.info("Lower case {}", toLCase.apply("HELLO World!"));
   }
-
 }
