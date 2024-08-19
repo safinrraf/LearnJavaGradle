@@ -1,4 +1,4 @@
-package com.learn.leetcode.easy.strings.ReverseString;
+package com.learn.leetcode.easy.strings;
 
 /**
  * <a href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/">Task</a>

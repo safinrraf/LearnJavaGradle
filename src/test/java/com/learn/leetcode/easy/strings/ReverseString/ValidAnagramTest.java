@@ -1,5 +1,6 @@
-package com.learn.leetcode.easy.strings.ReverseString;
+package com.learn.leetcode.easy.strings;
 
+import com.learn.leetcode.easy.strings.ValidAnagram;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
