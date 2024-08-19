@@ -11,6 +11,7 @@ import java.util.function.Predicate;
 
 import com.learn.leetcode.easy.arrays.RotateArray;
 import com.learn.leetcode.easy.arrays.SingleNumber;
+import com.learn.leetcode.medium.daily.TwoKeysKeyboard;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -45,5 +46,6 @@ public class Main {
     Function<String, String> toLCase = String::toLowerCase;
 
     log.info("Lower case {}", toLCase.apply("HELLO World!"));
+    log.info("Prime factors {}", TwoKeysKeyboard.findPrimeFactors(6));
   }
 }

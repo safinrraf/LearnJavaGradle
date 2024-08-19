@@ -1,4 +1,4 @@
-package com.learn.leetcode.easy.strings.ReverseString;
+package com.learn.leetcode.easy.strings;
 
 import java.util.Arrays;
 
