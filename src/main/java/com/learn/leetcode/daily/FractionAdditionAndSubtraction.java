@@ -1,6 +1,5 @@
-package com.learn.leetcode.medium.daily;
+package com.learn.leetcode.daily;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**

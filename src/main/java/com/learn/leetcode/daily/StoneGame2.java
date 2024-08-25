@@ -1,4 +1,4 @@
-package com.learn.leetcode.medium.daily;
+package com.learn.leetcode.daily;
 
 /**
  * <a href="https://leetcode.com/problems/stone-game-ii/description/?envType=daily-question&envId=2024-08-20">Task</a>
