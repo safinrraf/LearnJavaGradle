@@ -1,5 +1,6 @@
-package com.learn.leetcode.medium.daily;
+package com.learn.leetcode.daily.daily;
 
+import com.learn.leetcode.daily.FindTheClosestPalindrome;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

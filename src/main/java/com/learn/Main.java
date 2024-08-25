@@ -3,15 +3,11 @@ package com.learn;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
-import com.learn.leetcode.easy.arrays.RemoveDuplicatesFromSortedArray;
-
 import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-import com.learn.leetcode.easy.arrays.RotateArray;
-import com.learn.leetcode.easy.arrays.SingleNumber;
-import com.learn.leetcode.medium.daily.TwoKeysKeyboard;
+import com.learn.leetcode.daily.TwoKeysKeyboard;
 import lombok.extern.slf4j.Slf4j;
 
 /**

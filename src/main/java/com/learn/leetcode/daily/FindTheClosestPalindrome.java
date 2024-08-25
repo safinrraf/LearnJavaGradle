@@ -1,4 +1,4 @@
-package com.learn.leetcode.medium.daily;
+package com.learn.leetcode.daily;
 
 /**
  * <a href="https://leetcode.com/problems/find-the-closest-palindrome/description/?envType=daily-question&envId=2024-08-24">Task</a>
