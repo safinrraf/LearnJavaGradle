@@ -1,5 +1,6 @@
 package com.learn.leetcode.easy.linkedlist;
 
+import com.learn.leetcode.common.ListNode;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -23,12 +24,4 @@ public final class RemoveNthNodeFromEndOfList {
         slow.next = slow.next.next;
         return dummy.next;
     }
-
-    public static class ListNode {
-        int val;
-        public ListNode next;
-        ListNode() {}
-        public ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-     }
 }

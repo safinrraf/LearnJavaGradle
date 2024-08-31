@@ -1,5 +1,7 @@
 package com.learn.leetcode.easy.linkedlist;
 
+import com.learn.leetcode.common.ListNode;
+
 /**
  * <a href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/">Task</a>
  */
@@ -16,13 +18,5 @@ public final class ReverseLinkedList {
         }
 
         return prev;
-    }
-
-    public class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 }
