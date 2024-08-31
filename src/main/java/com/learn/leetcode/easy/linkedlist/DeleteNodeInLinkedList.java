@@ -1,5 +1,7 @@
 package com.learn.leetcode.easy.linkedlist;
 
+import com.learn.leetcode.common.ListNode;
+
 /**
  * <a href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/">Task</a>
  */
@@ -10,11 +12,5 @@ public final class DeleteNodeInLinkedList {
         node.val = node.next.val;
         // Make current node point to next of next node.
         node.next = node.next.next;
-    }
-
-    public static class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
     }
 }
