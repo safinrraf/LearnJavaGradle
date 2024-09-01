@@ -5,7 +5,7 @@ import com.learn.leetcode.common.ListNode;
 /**
  * <a href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/771/">Task</a>
  */
-public class MergeTwoSortedLists {
+public final class MergeTwoSortedLists {
 
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         var result = new ListNode();
