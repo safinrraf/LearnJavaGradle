@@ -13,9 +13,9 @@ class ClimbingStairsTest {
 
     private static Stream<Arguments> testCases() {
         return Stream.of(
+                Arguments.of(7, 21),
                 Arguments.of(2, 2),
                 Arguments.of(3, 3),
-                Arguments.of(7, 21),
                 Arguments.of(33, 5702887),
                 Arguments.of(39, 102334155)
         );
