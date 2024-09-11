@@ -1,6 +1,6 @@
 package com.learn.leetcode.daily.daily;
 
-import com.learn.leetcode.daily.TwoKeysKeyboard;
+import com.learn.leetcode.daily.q202408.TwoKeysKeyboard;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

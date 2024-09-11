@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily;
+package com.learn.leetcode.daily.q202408;
 
 /**
  * <a href="https://leetcode.com/problems/path-with-maximum-probability/?envType=daily-question&envId=2024-08-27">Task</a>
