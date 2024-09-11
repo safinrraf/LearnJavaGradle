@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily;
+package com.learn.leetcode.daily.q202409;
 
 import com.learn.leetcode.common.ListNode;
 import com.learn.leetcode.common.TreeNode;

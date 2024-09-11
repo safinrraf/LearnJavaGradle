@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily;
+package com.learn.leetcode.daily.q202409;
 
 /**
  * <a href="https://leetcode.com/problems/find-missing-observations/description/?envType=daily-question&envId=2024-09-05">Task</a>

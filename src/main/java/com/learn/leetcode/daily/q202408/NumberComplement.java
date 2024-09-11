@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily;
+package com.learn.leetcode.daily.q202408;
 
 /**
  * <a href="https://leetcode.com/problems/number-complement/description/?envType=daily-question&envId=2024-08-22">Task</a>
