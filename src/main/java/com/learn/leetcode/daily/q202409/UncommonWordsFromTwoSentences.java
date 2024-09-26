@@ -1,7 +1,6 @@
 package com.learn.leetcode.daily.q202409;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * <a href="https://leetcode.com/problems/uncommon-words-from-two-sentences/description/?envType=daily-question&envId=2024-09-17">Task</a>
