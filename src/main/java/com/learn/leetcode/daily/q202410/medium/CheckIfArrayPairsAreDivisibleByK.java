@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily.q202410;
+package com.learn.leetcode.daily.q202410.medium;
 
 /**
  * <a href="https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/?envType=daily-question&envId=2024-10-01">Task</a>

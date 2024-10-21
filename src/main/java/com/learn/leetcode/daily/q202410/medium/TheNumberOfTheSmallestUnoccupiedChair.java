@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily.q202410;
+package com.learn.leetcode.daily.q202410.medium;
 
 import java.util.*;
 
@@ -29,30 +29,6 @@ import java.util.*;
  * </ul>
  * </p>
  * <p>
- * <ul><b>Intuition</b>:
- * <li> ...
- * <ul>
- *     <li> ...
- * </ul>
- * </ul>
- * <ul><b>My questions</b>:
- * <li> ...
- * </ul>
- * </p>
- * <p>
- *     <ul><b>Approach</b>:
- *     <li> # 1:
- *     <ul>
- *         <li> ...
- *     </ul>
- *     <li> # 2: ...
- *     <ul>
- *         <li> ...
- *     </ul>
- *     </ul>
- * </p>
- * <p>
- * <br>@author radik.safin
  * <br>@since 1.0.0
  * <br> 11.10.24 20:59
  * </p>

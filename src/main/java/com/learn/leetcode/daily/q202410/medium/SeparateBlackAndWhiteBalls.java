@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily.q202410;
+package com.learn.leetcode.daily.q202410.medium;
 
 /**
  * <a href="https://leetcode.com/problems/separate-black-and-white-balls/description/?envType=daily-question&envId=2024-10-15">Task</a>
