@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily.q202410;
+package com.learn.leetcode.daily.q202410.easy;
 
 import java.util.Stack;
 

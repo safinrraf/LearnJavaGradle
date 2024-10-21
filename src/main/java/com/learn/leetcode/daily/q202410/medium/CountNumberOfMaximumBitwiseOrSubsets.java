@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily.q202410;
+package com.learn.leetcode.daily.q202410.medium;
 
 /**
  * <a href="https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/description/?envType=daily-question&envId=2024-10-18">Task</a>

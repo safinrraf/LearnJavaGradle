@@ -1,8 +1,7 @@
-package com.learn.leetcode.daily.q202410;
+package com.learn.leetcode.daily.q202410.medium;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
-import java.util.stream.IntStream;
 
 /**
  * <a href="https://leetcode.com/problems/longest-happy-string/description/?envType=daily-question&envId=2024-10-16">Task</a>

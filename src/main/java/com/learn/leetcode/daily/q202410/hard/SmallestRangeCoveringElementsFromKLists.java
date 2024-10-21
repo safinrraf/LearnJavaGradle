@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily.q202410;
+package com.learn.leetcode.daily.q202410.hard;
 
 import java.util.Comparator;
 import java.util.List;

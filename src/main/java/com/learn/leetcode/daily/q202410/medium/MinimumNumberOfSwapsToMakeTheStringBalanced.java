@@ -1,6 +1,4 @@
-package com.learn.leetcode.daily.q202410;
-
-import java.util.Stack;
+package com.learn.leetcode.daily.q202410.medium;
 
 /**
  * <a href="https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/?envType=daily-question&envId=2024-10-08">Task</a>

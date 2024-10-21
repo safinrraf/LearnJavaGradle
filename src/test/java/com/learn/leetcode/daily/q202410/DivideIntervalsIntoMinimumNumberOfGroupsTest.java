@@ -1,5 +1,6 @@
 package com.learn.leetcode.daily.q202410;
 
+import com.learn.leetcode.daily.q202410.medium.DivideIntervalsIntoMinimumNumberOfGroups;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
