@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'java-library'
     id 'application'
+    id "com.diffplug.spotless" version "6.25.0"
 }
 
 // https://docs.gradle.org/current/userguide/building_java_projects.html#sec:java_dependency_management_overview
