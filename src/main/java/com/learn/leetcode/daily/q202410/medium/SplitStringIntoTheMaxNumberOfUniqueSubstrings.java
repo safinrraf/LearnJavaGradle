@@ -19,7 +19,7 @@ import java.util.HashSet;
  * <br>@since 1.0.0
  * <br> 21.10.24 20:50
  */
-public class SplitStringIntoTheMaxNumberOfUniqueSubstrings {
+public final class SplitStringIntoTheMaxNumberOfUniqueSubstrings {
 
     /**
      * {@code Time Complexity O(2^N)}
