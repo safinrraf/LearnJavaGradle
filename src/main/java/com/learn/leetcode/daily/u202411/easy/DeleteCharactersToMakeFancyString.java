@@ -23,7 +23,6 @@ public final class DeleteCharactersToMakeFancyString {
     /**
      * <p>A fancy string is a string where no three consecutive characters are equal.</p>
      * Given a string {@code s}, delete the minimum possible number of characters from s to make it fancy.
-     *
      * {@code Time Complexity O(N)}
      * {@code Space Complexity O(1)}
      *
