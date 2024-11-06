@@ -69,4 +69,22 @@ class DeleteCharactersToMakeFancyStringTest {
 
         assertEquals(expected, result);
     }
+
+    @Test
+    void makeFancyString7() {
+        var input = "uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu";
+        var expected = "uu";
+        var result = DeleteCharactersToMakeFancyString.makeFancyString(input);
+
+        assertEquals(expected, result);
+    }
+
+    @Test
+    void makeFancyString8() {
+        var input = "uuuuuuuuooooooooouuuuuuuuuuuuu";
+        var expected = "uuoouu";
+        var result = DeleteCharactersToMakeFancyString.makeFancyString(input);
+
+        assertEquals(expected, result);
+    }
 }
