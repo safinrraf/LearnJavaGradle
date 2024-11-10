@@ -2,7 +2,7 @@ package com.learn.leetcode.daily.u202411.medium;
 
 /**
  * <a href="https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/description/?envType=daily-question&envId=2024-11-10">Task</a>
- * <br><a href="">Explanation</a>
+ * <br><a href="https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/solutions/6028459/easiest-solution-100-beats-brute-force-approach-c-python-java-javascript/">Explanation</a>
  * <ul>Topics
  * <li> {@code Array, Bit Manipulation, Sliding Window}
  * </ul>
@@ -16,7 +16,6 @@ package com.learn.leetcode.daily.u202411.medium;
  * <li> {@code 0 <= nums[i] <= 10^9}
  * <li> {@code 0 <= k <= 109}
  * </ul>
- * <br>@author radik.safin
  * <br>@since 1.0.0
  * <br> 10.11.24 15:34
  */
