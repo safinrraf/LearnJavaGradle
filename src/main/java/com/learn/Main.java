@@ -33,15 +33,10 @@ public class Main {
    * @param args input parameters
    */
   public static void main(String[] args) {
-    final Predicate<String> myIsNull = Objects::isNull;
-    final List<String> testList = new ArrayList<>();
+    final var powerOfTwo = new PowerOfTwo();
 
-    log.info("This is null {}", myIsNull.test(null));
-    log.info("This is null {}", myIsNull.test("null"));
-
-    Function<String, String> toLCase = String::toLowerCase;
-
-    log.info("Lower case {}", toLCase.apply("HELLO World!"));
-    log.info("Prime factors {}", TwoKeysKeyboard.findPrimeFactors(6));
+    log.info("> {}", powerOfTwo.next());
+    log.info("> {}", powerOfTwo.next());
+    log.info("> {}", powerOfTwo.next());
   }
 }
