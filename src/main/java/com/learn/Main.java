@@ -38,5 +38,12 @@ public class Main {
     log.info("> {}", powerOfTwo.next());
     log.info("> {}", powerOfTwo.next());
     log.info("> {}", powerOfTwo.next());
+    log.info("> {}", powerOfTwo.next());
+    log.info("> {}", powerOfTwo.next());
+    log.info("> {}", powerOfTwo.next());
+    log.info("> {}", powerOfTwo.next());
+    log.info("> {}", powerOfTwo.next());
+    log.info("> {}", powerOfTwo.next());
+    log.info("> {}", powerOfTwo.next());
   }
 }
