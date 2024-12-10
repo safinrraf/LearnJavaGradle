@@ -10,7 +10,7 @@ package com.learn.leetcode.daily.u202411.medium;
  * <li> {@code Each time, just cut the same character in prefix up to at max 9 times. It’s always better to cut a bigger prefix.}
  * </ul>
  * <ul><b>Constraints</b>:
- * <li> {@code 1 <= word.length <= 2 * 105}
+ * <li> {@code 1 <= word.length <= 2 * 10^5}
  * <li> {@code word consists only of lowercase English letters.}
  * </ul>
  * <br>@author radik.safin
