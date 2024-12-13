@@ -2,7 +2,7 @@ package com.learn.leetcode.daily.x202412.medium;
 
 /**
  * <a href="https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/description/?envType=daily-question&envId=2024-12-13">Task</a>
- * <br><a href="">Explanation</a>
+ * <br><a href="https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/solutions/6142041/15-approaches-explained-incredibly-long-solution/">Explanation</a>
  * <ul>Topics
  * <li> {@code Heap (Priority Queue), Sorting, Array, Simulation, Hash Table, Ordered Set, Ordered Map, Greedy, Monotonic Stack, Sliding Window, Two Pointers, Stack, Divide and Conquer, Radix Sort}
  * <li> {@code Queue, Dynamic Programming, Doubly-Linked List, Data Stream, Bit Manipulation, Hash Function, Design, Tree, String, Iterator, Counting Sort}
@@ -15,7 +15,6 @@ package com.learn.leetcode.daily.x202412.medium;
  * <li> {@code 1 <= nums.length <= 10^5}
  * <li> {@code 1 <= nums[i] <= 10^6}
  * </ul>
- * <br>@author radik.safin
  * <br>@since 1.0.0
  * <br> 13.12.24 08:13
  */
