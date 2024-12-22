@@ -25,7 +25,6 @@ import java.util.*;
  * <li> {@code Sum of values is divisible by k.}
  * <li> {@code The input is generated such that edges represents a valid tree.}
  * </ul>
- * <br>@author radik.safin
  * <br>@since 1.0.0
  * <br> 21.12.24 19:21
  */
