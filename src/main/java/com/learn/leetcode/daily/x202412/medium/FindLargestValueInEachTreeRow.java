@@ -112,7 +112,7 @@ public final class FindLargestValueInEachTreeRow {
 
         List<Integer> ans = new ArrayList<>();
         Stack<Pair<TreeNode, Integer>> stack = new Stack<>();
-        stack.push(new Pair<>(root, 0));
+        //stack.push(new Pair<>(root, 0));
 
         while (!stack.isEmpty()) {
             Pair<TreeNode, Integer> pair = stack.pop();
@@ -126,11 +126,11 @@ public final class FindLargestValueInEachTreeRow {
             }
 
             if (node.left != null) {
-                stack.push(new Pair<>(node.left, depth + 1));
+                //stack.push(new Pair<>(node.left, depth + 1));
             }
 
             if (node.right != null) {
-                stack.push(new Pair<>(node.right, depth + 1));
+                //stack.push(new Pair<>(node.right, depth + 1));
             }
         }
 
