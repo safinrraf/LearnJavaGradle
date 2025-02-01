@@ -1,9 +1,7 @@
 package com.learn.leetcode.daily.u202411.medium;
 
+import com.learn.leetcode.daily.w2024.u202411.medium.MostBeautifulItemForEachQuery;
 import org.junit.jupiter.api.Test;
-
-import java.util.Arrays;
-import java.util.Comparator;
 
 import static org.junit.jupiter.api.Assertions.*;
 

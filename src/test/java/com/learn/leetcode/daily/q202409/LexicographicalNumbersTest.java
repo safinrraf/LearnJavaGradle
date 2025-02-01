@@ -1,5 +1,6 @@
 package com.learn.leetcode.daily.q202409;
 
+import com.learn.leetcode.daily.w2024.q202409.LexicographicalNumbers;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

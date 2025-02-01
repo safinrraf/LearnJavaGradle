@@ -1,8 +1,7 @@
 package com.learn.leetcode.daily.q202409;
 
+import com.learn.leetcode.daily.w2024.q202409.KthSmallestInLexicographicalOrder;
 import org.junit.jupiter.api.Test;
-
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 

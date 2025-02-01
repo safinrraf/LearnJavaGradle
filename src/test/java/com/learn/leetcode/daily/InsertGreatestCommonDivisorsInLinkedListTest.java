@@ -1,7 +1,7 @@
 package com.learn.leetcode.daily;
 
 import com.learn.leetcode.common.ListNode;
-import com.learn.leetcode.daily.q202409.InsertGreatestCommonDivisorsInLinkedList;
+import com.learn.leetcode.daily.w2024.q202409.InsertGreatestCommonDivisorsInLinkedList;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,5 +1,6 @@
 package com.learn.leetcode.daily.q202410.medium;
 
+import com.learn.leetcode.daily.w2024.q202410.medium.RemoveSubFoldersFromTheFilesystem;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.learn.leetcode.daily.q202410;
 
-import com.learn.leetcode.daily.q202410.easy.MinimumStringLengthAfterRemovingSubstrings;
+import com.learn.leetcode.daily.w2024.q202410.easy.MinimumStringLengthAfterRemovingSubstrings;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
