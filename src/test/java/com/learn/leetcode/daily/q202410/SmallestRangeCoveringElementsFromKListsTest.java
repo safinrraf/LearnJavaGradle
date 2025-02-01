@@ -1,6 +1,6 @@
 package com.learn.leetcode.daily.q202410;
 
-import com.learn.leetcode.daily.q202410.hard.SmallestRangeCoveringElementsFromKLists;
+import com.learn.leetcode.daily.w2024.q202410.hard.SmallestRangeCoveringElementsFromKLists;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

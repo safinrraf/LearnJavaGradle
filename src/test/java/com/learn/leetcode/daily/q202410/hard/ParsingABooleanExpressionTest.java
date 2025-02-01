@@ -1,5 +1,6 @@
 package com.learn.leetcode.daily.q202410.hard;
 
+import com.learn.leetcode.daily.w2024.q202410.hard.ParsingABooleanExpression;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,5 +1,6 @@
 package com.learn.leetcode.daily.x202412.hard;
 
+import com.learn.leetcode.daily.w2024.x202412.hard.FindBuildingWhereAliceAndBobCanMeet;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

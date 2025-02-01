@@ -1,5 +1,6 @@
 package com.learn.leetcode.daily.u202411.medium;
 
+import com.learn.leetcode.daily.w2024.u202411.medium.FindIfArrayCanBeSorted;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

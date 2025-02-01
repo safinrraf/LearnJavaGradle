@@ -1,8 +1,7 @@
 package com.learn.leetcode.daily.q202409;
 
+import com.learn.leetcode.daily.w2024.q202409.AllOne;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class AllOneTest {
     private static final AllOne OBJ = new AllOne();
