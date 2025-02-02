@@ -1,5 +1,6 @@
 package com.learn.leetcode.daily.b202502;
 
+import com.learn.leetcode.daily.b202502.easy.SpecialArray1;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
