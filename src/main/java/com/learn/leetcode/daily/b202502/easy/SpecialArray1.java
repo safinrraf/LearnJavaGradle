@@ -1,4 +1,4 @@
-package com.learn.leetcode.daily.b202502;
+package com.learn.leetcode.daily.b202502.easy;
 
 /**
  * <a href="https://leetcode.com/problems/special-array-i/description/?envType=daily-question&envId=2025-02-01">Task</a>
